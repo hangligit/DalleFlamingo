@@ -1,0 +1,17 @@
+image_root: '/home/ubuntu/datasets/coco/images/'
+ann_root: 'annotation/'
+coco_gt_root: 'annotation/coco_gt'
+
+# set pretrained as a file path or an url
+# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_caption_capfilt_large.pth'
+pretrained: '/home/ubuntu/DalleFlamingo/pretrained/model_base_caption_capfilt_large.pth'
+
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+image_size: 384
+max_length: 20  
+min_length: 5
+num_beams: 3
+prompt: 'a picture of '
+
